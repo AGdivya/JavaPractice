@@ -12,3 +12,5 @@ Git commands to link your local repo with remote repo
 9. Run this "git pull origin main --allow-unrelated-histories"
 10. Add commit message then run 
 11. git push origin main
+12. If you update repo name in remote you need to run below command in local
+    git remote set-url origin https://github.com/AGdivya/JavaPractice.git
