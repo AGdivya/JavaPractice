@@ -14,7 +14,7 @@ public class ClassDemo {
         int speed;
         //  System.out.println(speed); // need to initialize local variable unless it throw compile error
         System.out.println("I am run method");
-        //if we did not initialize it will bedefualt take string null value
+        //if we did not initialize it will by default take string null value
         System.out.println("I am static variable         "+clgName);
         System.out.println("I am instance variable       "+a);
     }
