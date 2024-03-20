@@ -14,3 +14,8 @@ Git commands to link your local repo with remote repo
 11. git push origin main
 12. If you update repo name in remote you need to run below command in local
     git remote set-url origin https://github.com/AGdivya/JavaPractice.git
+13. To add all file git add --
+14. git rm --cached <file>   It will remove only staged file not from your working directory
+15. git rm <file>   Remove file from working directory as well as staged
+16. git reset <file> Remove only from staged 
+17. git reset  Remove all files from staged in one go
