@@ -37,6 +37,5 @@ public class OverRidingTest {
         //because there is no space in PArent class to store those methods
 //        a1.m5();
 //        a1.m6();
-
     }
 }
