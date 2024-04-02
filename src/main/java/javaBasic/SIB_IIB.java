@@ -17,7 +17,9 @@ public class SIB_IIB {
     //Static Block
     static {
         //static int x; can't use static keyword inside static block
-        int a=20;
+        int a=20; //local variable
+        SIB_IIB s = new SIB_IIB();
+        s.a= 30;
         b=100;
         System.out.println("Inside static Block");  //1
     }
@@ -39,6 +41,9 @@ public class SIB_IIB {
         s1.show(); //rather we are calling this method here but before this static block execute
         System.out.println("Value of b is:  "+s1.b); // here we can directly call static variable without using class name //4
         System.out.println("Value of a is:  "+s1.a);
+        SIB_IIB s=new SIB_IIB();
+        s.a=30;
+        System.out.println("Value of a is:  "+s.a);
         SIB_IIB s2=new SIB_IIB(); //always instance block initiate then constructor
         s2.show();
 
