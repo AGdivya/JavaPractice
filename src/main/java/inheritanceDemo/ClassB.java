@@ -9,6 +9,6 @@ public class ClassB extends ClassA{
 
     public void write()
     {
-        System.out.println("I can write in Class B");
+        System.out.println("I can write in Class coding.B");
     }
 }

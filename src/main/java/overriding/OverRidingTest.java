@@ -19,17 +19,17 @@ public class OverRidingTest {
         System.out.println("Calling functions using child class object");
         //Using child class object, we can call all the methods of parent class and child  class
         B b = new B();
-        b.m1(); //B class m1 method
-        b.m2(); //B class m2 method
+        b.m1(); //coding.B class m1 method
+        b.m2(); //coding.B class m2 method
         b.m3(); //A class m3 method
         b.m4(); //A class m4 method
-        b.m5(); //B class m5 method
-        b.m6(); //B class m6 method
+        b.m5(); //coding.B class m5 method
+        b.m6(); //coding.B class m6 method
 
         System.out.println("Calling functions using parent class reference but child class object");
         A a1=new B();
-        a1.m1(); //B class m1 method
-        a1.m2(); //B class m2 method
+        a1.m1(); //coding.B class m1 method
+        a1.m2(); //coding.B class m2 method
         a1.m3(); //A class m3 method
         a1.m4(); //A class m4 method
 

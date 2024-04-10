@@ -19,3 +19,5 @@ Git commands to link your local repo with remote repo
 15. git rm <file>   Remove file from working directory as well as staged
 16. git reset <file> Remove only from staged 
 17. git reset  Remove all files from staged in one go
+18. git rebase -i You want to clean up your commit history before pushing your changes to the remote repository by combining, 
+    reordering, or editing your commits interactively
